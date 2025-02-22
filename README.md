@@ -45,16 +45,6 @@ This tool is more than just a learning resource—it’s a **practical automatio
 - 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
 - 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
 
-- ✅ Feature 1: Useful
-- 🚀 Feature 2: Simple
-- 🛠️ Feature 3: Thorough
-- 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
-- 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
-
-- ✅ Feature 1: Useful
-- 🚀 Feature 2: Simple
-- 🛠️ Feature 3: Thorough
-
 ---
 ## 📚 Prerequisites Knowledge
 
@@ -81,23 +71,17 @@ Before using **Automate Ansible**, aspiring system administrators should have ba
   - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
 
 ---
+## 🛠 Prerequisites for Control Node
 
+Before installing and using **Automate Ansible**, ensure you have the following dependencies set up for your control node:
 
-## 📸 Screenshot
-
-Coming soon
-
----
-
-## 🎬 Demo Video
-
-[![Watch the video](https://img.youtube.com/vi/reAXSyYBFM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=reAXSyYBFM4)
-
----
-
-## 🛠 Prerequisites
-
-Before installing and using **Automate Ansible**, ensure you have the following dependencies set up for your operating system:
+### Required Dependencies
+- **curl**
+- **wget** (already installed on most systems)
+- **git** (already installed on most systems)
+- **python3**
+- **nmap**
+- **gh** (GitHub CLI)
 
 ### 🔹 Windows
 - Install **Windows Subsystem for Linux (WSL)** or use a Linux VM.
@@ -109,70 +93,51 @@ Before installing and using **Automate Ansible**, ensure you have the following 
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
-- Install **Python** and **Ansible**:
+- Install dependencies:
   ```bash
-  brew install python ansible
+  brew install python ansible curl nmap gh
   ```
 
 ### 🔹 Linux
-- Ensure **Python** and **pip** are installed:
+- Ensure required packages are installed:
   ```bash
-  sudo apt update && sudo apt install -y python3 python3-pip
+  sudo apt update && sudo apt install -y python3 python3-pip curl wget nmap gh
   ```
 - Install **Ansible**:
   ```bash
   pip3 install ansible
   ```
 
+---
+## 🛠 Target Hosts & Dependencies
 
-
-Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
+Each target system should have the following dependencies installed to be managed effectively:
 
 ### 🔹 Windows
-- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
-  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
-  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+- **WinRM enabled** (for remote administration)
+- **Python (optional, required for some scripts)**
 
 ### 🔹 macOS
-- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
-  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
-- **Homebrew**: A package manager for installing software and dependencies.
-  - Learn more: [Homebrew](https://brew.sh/)
+- **Homebrew installed**
+- **Python installed**
+- **SSH enabled**
 
 ### 🔹 Linux
-- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
-  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
-- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
-  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
-- **SSH & Remote Access**: Securely accessing remote systems via SSH.
-  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
+- **Python installed**
+- **SSH enabled**
+- **Required dependencies installed via package manager**
 
 ---
 
-## 🚀 Automate Ansible
+## 📺 Screenshot
 
-Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
+Coming soon
 
-### 🔹 Windows
-- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
-  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
-  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+---
 
-### 🔹 macOS
-- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
-  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
-- **Homebrew**: A package manager for installing software and dependencies.
-  - Learn more: [Homebrew](https://brew.sh/)
+## 🎬 Demo Video
 
-### 🔹 Linux
-- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
-  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
-- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
-  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
-- **SSH & Remote Access**: Securely accessing remote systems via SSH.
-  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
+[![Watch the video](https://img.youtube.com/vi/reAXSyYBFM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=reAXSyYBFM4)
 
 ---
 
