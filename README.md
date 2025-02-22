@@ -17,7 +17,7 @@
 
 ## 📸 Screenshot
 
-![Project Screenshot](https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg)
+coming
 
 ---
 
