@@ -1,4 +1,4 @@
-# 🚀 My Awesome Project
+# 🚀 Automate Ansible
 
 <p align="center">
   <img src="https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg" alt="offthegridit logo" width="120">
