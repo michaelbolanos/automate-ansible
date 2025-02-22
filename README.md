@@ -1,3 +1,29 @@
+## 📚 Prerequisites Knowledge
+
+Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
+
+### 🔹 Windows
+- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
+  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
+  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+
+### 🔹 macOS
+- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
+  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
+- **Homebrew**: A package manager for installing software and dependencies.
+  - Learn more: [Homebrew](https://brew.sh/)
+
+### 🔹 Linux
+- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
+  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
+- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
+  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
+- **SSH & Remote Access**: Securely accessing remote systems via SSH.
+  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
+
+---
+
 # 🚀 Automate Ansible
 
 <p align="center">
