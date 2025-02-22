@@ -135,13 +135,54 @@ Coming soon
 
 ---
 
-## 🎬 Demo Video
+
+## 🛠 Installation & Usage
+
+Coming Soon
+
+## 🎬 Stupid Demo Video
 
 [![Watch the video](https://img.youtube.com/vi/reAXSyYBFM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=reAXSyYBFM4)
 
 ---
 
-## 🛠 Installation & Usage
+# automate-ansible
+
+## Directory Structure
+
+```bash
+/automate-ansible
+│── README.md                 # Main Overview
+│── docs/
+│   ├── windows.md            # Windows-specific setup
+│   ├── mac.md                # macOS-specific setup
+│   ├── linux.md              # Linux-specific setup
+│   ├── prerequisites.md      # General Prerequisites
+│   ├── target-hosts.md       # Target Hosts & Dependencies
+│   ├── installation.md       # Installation Guide
+│   ├── usage.md              # Usage & Commands
+│   ├── faq.md                # Frequently Asked Questions
+```
+
+## Documentation Overview
+- **[Windows Setup](docs/windows.md)** – Steps to configure Windows machines.
+- **[macOS Setup](docs/mac.md)** – Guide for setting up Ansible on macOS.
+- **[Linux Setup](docs/linux.md)** – Instructions for Linux installations.
+- **[General Prerequisites](docs/prerequisites.md)** – Requirements before starting.
+- **[Target Hosts & Dependencies](docs/target-hosts.md)** – Information on configuring target machines.
+- **[Installation Guide](docs/installation.md)** – How to install and configure Ansible.
+- **[Usage & Commands](docs/usage.md)** – Examples and commands for usage.
+- **[Frequently Asked Questions](docs/faq.md)** – Common issues and solutions.
+
+## Getting Started
+Follow the [Installation Guide](docs/installation.md) to set up Ansible for your environment.
+
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests.
+
+## License
+This project is licensed under the MIT License.
+
 
 ### 🔹 Clone this repository:
 ```bash
