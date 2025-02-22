@@ -1,29 +1,3 @@
-## 📚 Prerequisites Knowledge
-
-Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
-
-### 🔹 Windows
-- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
-  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
-  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
-
-### 🔹 macOS
-- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
-  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
-- **Homebrew**: A package manager for installing software and dependencies.
-  - Learn more: [Homebrew](https://brew.sh/)
-
-### 🔹 Linux
-- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
-  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
-- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
-  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
-- **SSH & Remote Access**: Securely accessing remote systems via SSH.
-  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
-
----
-
 # 🚀 Automate Ansible
 
 <p align="center">
@@ -71,6 +45,16 @@ This tool is more than just a learning resource—it’s a **practical automatio
 - 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
 - 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
 
+- ✅ Feature 1: Useful
+- 🚀 Feature 2: Simple
+- 🛠️ Feature 3: Thorough
+- 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
+- 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
+
+- ✅ Feature 1: Useful
+- 🚀 Feature 2: Simple
+- 🛠️ Feature 3: Thorough
+
 ---
 
 ## 📸 Screenshot
@@ -98,3 +82,79 @@ Before installing and using **Automate Ansible**, ensure you have the following 
 - Install **Homebrew** (if not already installed):
   ```bash
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+- Install **Python** and **Ansible**:
+  ```bash
+  brew install python ansible
+  ```
+
+### 🔹 Linux
+- Ensure **Python** and **pip** are installed:
+  ```bash
+  sudo apt update && sudo apt install -y python3 python3-pip
+  ```
+- Install **Ansible**:
+  ```bash
+  pip3 install ansible
+  ```
+
+
+
+Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
+
+### 🔹 Windows
+- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
+  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
+  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+
+### 🔹 macOS
+- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
+  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
+- **Homebrew**: A package manager for installing software and dependencies.
+  - Learn more: [Homebrew](https://brew.sh/)
+
+### 🔹 Linux
+- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
+  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
+- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
+  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
+- **SSH & Remote Access**: Securely accessing remote systems via SSH.
+  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
+
+---
+
+## 🚀 Automate Ansible
+
+Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
+
+### 🔹 Windows
+- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
+  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
+  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
+
+### 🔹 macOS
+- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
+  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
+- **Homebrew**: A package manager for installing software and dependencies.
+  - Learn more: [Homebrew](https://brew.sh/)
+
+### 🔹 Linux
+- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
+  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
+- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
+  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
+- **SSH & Remote Access**: Securely accessing remote systems via SSH.
+  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
+
+---
+
+## 🛠 Installation & Usage
+
+### 🔹 Clone this repository:
+```bash
+git clone https://github.com/michaelbolanos/automate-ansible.git
+cd automate-ansible
+```
+
