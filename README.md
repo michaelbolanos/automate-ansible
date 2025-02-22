@@ -37,11 +37,13 @@ This tool is more than just a learning resource—it’s a **practical automatio
 
 ---
 
-## ✨ Features
+## ✨ Capabilities
 
-- ✅ Feature 1: Useful
-- 🚀 Feature 2: Simple
-- 🛠️ Feature 3: Thorough
+- ✅ Useful - Designed to streamline complex administrative tasks, reducing manual effort and increasing efficiency.
+- 🚀 Simple - Easy-to-use automation with intuitive commands and well-structured playbooks for rapid deployment.
+- 🛠️ Thorough - Covers a wide range of system administration needs, from configuration management to software deployment.
+- 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
+- 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
 
 ---
 
@@ -57,9 +59,16 @@ Coming soon
 
 ---
 
-## 🛠 Installation & Usage
+## 🛠 Prerequisites
 
-### 🔹 Clone this repository:
-```bash
-git clone https://github.com/michaelbolanos/automate-ansible.git
-cd automate-ansible
+Before installing and using **Automate Ansible**, ensure you have the following dependencies set up for your operating system:
+
+### 🔹 Windows
+- Install **Windows Subsystem for Linux (WSL)** or use a Linux VM.
+- Install **Python** and **pip**.
+- Install **Ansible** via WSL or Cygwin.
+
+### 🔹 macOS
+- Install **Homebrew** (if not already installed):
+  ```bash
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
