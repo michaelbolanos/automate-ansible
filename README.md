@@ -1,8 +1,10 @@
 # 🚀 My Awesome Project
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Your+Project+Banner)
+<p align="center">
+  <img src="https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg" alt="offthegridit logo" width="120">
+</p>
 
-> **Automation for computers Mac, Windows, Linux** 
+> **Automation for computers Mac, Windows, Linux**  
 ---
 
 ## ✨ Features
@@ -15,13 +17,13 @@
 
 ## 📸 Screenshot
 
-![Project Screenshot](https://via.placeholder.com/800x400?text=Screenshot+of+Your+Project)
+![Project Screenshot](https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg)
 
 ---
 
 ## 🎬 Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the video](https://img.youtube.com/vi/reAXSyYBFM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=reAXSyYBFM4)
 
 ---
 
@@ -29,5 +31,5 @@
 
 ### 🔹 Clone this repository:
 ```bash
-git clone https://github.com/michaelbolanos/automate-ansible/automate-ansible.git
+git clone https://github.com/michaelbolanos/automate-ansible.git
 cd automate-ansible
