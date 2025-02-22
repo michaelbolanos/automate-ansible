@@ -4,7 +4,10 @@
   <img src="https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg" alt="offthegridit logo" width="120">
 </p>
 
-> **Automation for computers Mac, Windows, Linux**  
+> **Automation for Computers
+> Mac
+> Windows
+> Linux**  
 ---
 
 ## ✨ Features
