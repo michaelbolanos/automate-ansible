@@ -12,12 +12,3 @@ New-NetFirewallRule -DisplayName "WinRM HTTP" -Direction Inbound -Action Allow -
 
 # Restart WinRM service
 Restart-Service WinRM
-🔑 Configuring a WinRM User
-Create an administrator user for Ansible and set a password:
-
-powershell
-Copy
-Edit
-New-LocalUser -Name "ansibleadmin" -Password (ConvertTo-SecureString "YourSecurePassword" -AsPlainText -Force) -FullName "Ansible Admin" -Description "User for Ansible Management"
-Add-LocalGroupMember -Group "Administrators" -Member "ansibleadmin"
-
