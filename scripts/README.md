@@ -1,28 +1,28 @@
-# Automate Ansible
+## Automate Ansible
 
 ---
 
-## 🛠️ **Installation**
+### 🛠️ **Installation**
 
 
-# Clone the repository
+### Clone the repository
 ```bash
 git clone git@github.com:michaelbolanos/automate-ansible.git
 ```
 
 
-# Navigate to the directory
+### Navigate to the directory
 ```
 cd automate-ansible
 ```
-# Run the main menu script
+### Run the main menu script
 ```
 ./scripts/ansible-manage.sh
 ```
 
 ---
 
-## 🚀 **Usage**
+### 🚀 **Usage**
 
 Run the script to access the interactive menu:
 
@@ -33,7 +33,7 @@ Run the script to access the interactive menu:
 ---
 ---
 
-## 🛀 **Windows Automation: PowerShell Remoting**
+### 🛀 **Windows Automation: PowerShell Remoting**
 
 The `/scripts/windows` subdirectory includes a script to **enable PowerShell remoting** for Ansible control:
 
