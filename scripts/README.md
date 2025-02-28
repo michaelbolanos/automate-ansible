@@ -1,9 +1,5 @@
 # Automate Ansible
 
-## 📌 Overview
-
-**Automate Ansible** is a powerful tool designed to streamline system administration by automating Ansible playbooks, managing network configurations, and handling WireGuard VPN connections. It features an interactive menu for easy navigation and includes scripts for Windows, macOS, and Linux automation.
-
 ---
 
 ## 🎯 **Key Features**
@@ -105,24 +101,6 @@ Run the script to access the interactive menu:
 
 ---
 
-## 🤝 **Contributing**
-
-Want to contribute? Great! Fork the repository, make your changes, and submit a pull request.
-
-```bash
-# Fork the repo on GitHub
-# Clone your forked repo
-git clone git@github.com:yourusername/automate-ansible.git
-cd automate-ansible
-
-# Create a new feature branch
-git checkout -b feature-branch
-
-# Make your changes
-
-# Commit and push
-git push origin feature-branch
-```
 
 ---
 
@@ -139,5 +117,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Happy Automating!*
+*Happy Automating*
 
