@@ -1,4 +1,4 @@
-# 🚀 Automate Ansible
+# Automate Ansible
 
 
 ## 📌 Overview
