@@ -2,18 +2,30 @@
 
 ---
 
-## 🎯 **Key Features**
+## 🛠️ **Installation**
 
-✅ **Automated Ansible Playbook Execution** - Deploy configurations seamlessly.
+```bash
+# Clone the repository
+git clone git@github.com:michaelbolanos/automate-ansible.git
 
-✅ **Network & WAN Status Checks** - Monitor connectivity in real-time.
+# Navigate to the directory
+cd automate-ansible
 
-✅ **WireGuard Connection Manager** - Automate VPN connections securely.
+# Run the main menu script
+./scripts/ansible-manage.sh
+```
 
-✅ **Interactive Whiptail Menu** - Simple navigation for system tasks.
+---
 
-✅ **Windows PowerShell Remoting Support** - Automate Windows configurations.
+## 🚀 **Usage**
 
+Run the script to access the interactive menu:
+
+```bash
+./scripts/ansible-manage.sh
+```
+
+---
 ---
 
 ## 🛀 **Windows Automation: PowerShell Remoting**
@@ -62,30 +74,6 @@ For additional Windows automation, see the **Ansible Windows Documentation**.
 
 ---
 
-## 🛠️ **Installation**
-
-```bash
-# Clone the repository
-git clone git@github.com:michaelbolanos/automate-ansible.git
-
-# Navigate to the directory
-cd automate-ansible
-
-# Run the main menu script
-./scripts/ansible-manage.sh
-```
-
----
-
-## 🚀 **Usage**
-
-Run the script to access the interactive menu:
-
-```bash
-./scripts/ansible-manage.sh
-```
-
----
 
 ## 🏆 **Project History**
 
