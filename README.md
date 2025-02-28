@@ -40,10 +40,7 @@ With **Automate Ansible**, WireGuard VPN connections can be managed effortlessly
 ## 📸 **Screenshots**
 
 🔹 **Main Menu**  
-![Main Menu](https://via.placeholder.com/800x400?text=Main+Menu+Screenshot)
 
-🔹 **WireGuard Management**  
-![WireGuard Management](https://via.placeholder.com/800x400?text=WireGuard+Manager+Screenshot)
 
 ---
 
@@ -67,29 +64,14 @@ cd automate-ansible
 Run the script to access the interactive menu:
 
 ```bash
-./automate-ansible.sh
+./scripts <TBD>
 ```
 
 ---
 
 ## 🏆 **Project History & About Me**
 
-Welcome to my GitHub! I'm **Michael Bolanos**, an experienced IT Professional, SysAdmin, and Home Automation Enthusiast passionate about automation, scripting, and cybersecurity.
 
-### **What I Do**
-🖥️ **Managing** - Systems, networks, and cybersecurity frameworks.  
-🧑‍💻 **Scripting** - Linux, macOS, and Windows automation for seamless IT operations.  
-🔐 **Exploring** - Cybersecurity best practices, compliance, and self-hosted monitoring solutions.  
-📡 **Tinkering With** - WireGuard VPN, IoT security, cloud, and on-prem automation setups.  
-
-### **Projects & Interests**
-🌟 **Smart Home** - Privacy-first automations with Home Assistant.  
-🛠️ **IT & Security Tools** - Developing admin scripts for system management, compliance audits, and security hardening.  
-📡 **Networking & VPN Security** - WireGuard, zero-trust security models, and self-hosted solutions.  
-🕵️ **Threat Monitoring** - SIEM tools, log aggregation, and automated alerts.  
-🤖 **AI & Automation** - Optimizing workflows with scripting and AI-driven threat detection.  
-
-Always learning, always securing, always automating — If you're passionate about **Home Assistant, IT automation, cybersecurity, or monitoring**, let's connect!
 
 ---
 
