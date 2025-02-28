@@ -20,26 +20,4 @@ Copy
 Edit
 New-LocalUser -Name "ansibleadmin" -Password (ConvertTo-SecureString "YourSecurePassword" -AsPlainText -Force) -FullName "Ansible Admin" -Description "User for Ansible Management"
 Add-LocalGroupMember -Group "Administrators" -Member "ansibleadmin"
-🏗️ Verifying WinRM
-To check if WinRM is running, use:
 
-powershell
-Copy
-Edit
-Test-WSMan
-This should return a response if WinRM is correctly configured.
-
-For more Windows-specific automation tasks, check out the Ansible Windows Documentation.
-
-markdown
-Copy
-Edit
-
----
-
-### Next Steps
-1. **Create separate `.md` files** in the `docs/` directory for each platform.
-2. **Update `README.md`** to reference these files.
-3. **Ensure proper linking** so users can easily navigate the documentation.
-
-Would you like me to generate markdown files for **macOS** and **Linux** as well? 🚀
