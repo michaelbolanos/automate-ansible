@@ -127,7 +127,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🌎 **Connect with Me**
 
 [![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/michaeljbolanos/)
 
 ---
 
