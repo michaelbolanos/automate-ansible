@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-**Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation and a fun Matrix screensaver!
+**Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation and a fun Matrix screensaver.
 
 ---
 
@@ -110,4 +110,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-🚀 *Happy Automating!*
+*Happy Automating*
