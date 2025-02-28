@@ -69,7 +69,7 @@ Run the script to access the interactive menu:
 
 ---
 
-## 🏆 **Project History & About Me**
+## 🏆 **Project History**
 
 
 
