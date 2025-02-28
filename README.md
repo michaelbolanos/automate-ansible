@@ -1,192 +1,134 @@
 # 🚀 Automate Ansible
 
-<p align="center">
-  <img src="https://offthegridit.com/wp-content/uploads/2024/05/offthergridit-logo-tree1.jpg" alt="offthegridit logo" width="120">
-</p>
+![Automate Ansible](https://img.shields.io/badge/Automation-Powered%20by%20Ansible-blue?style=for-the-badge&logo=ansible)
+![License](https://img.shields.io/github/license/michaelbolanos/automate-ansible?style=for-the-badge)
+![GitHub Repo Stars](https://img.shields.io/github/stars/michaelbolanos/automate-ansible?style=for-the-badge)
 
-> **Automation for Computers**  
-> Mac  
-> Windows  
-> Linux  
+## 📌 Overview
 
----
-
-## 🤖 Why Use Automate Ansible?
-
-### 🔹 **For IT System Administration Practitioners: Automate, Standardize, and Scale**  
-Managing IT environments across **Windows, Mac, and Linux** can be time-consuming and prone to errors. **Automate Ansible** provides a structured, efficient way to streamline system administration by:
-
-- **Standardizing Deployments**: Ensure consistency across multiple machines with repeatable, automated playbooks.  
-- **Saving Time & Reducing Errors**: Automate repetitive tasks like patching, software installations, and configuration changes, reducing human error and improving efficiency.  
-- **Remote Management & Compliance**: Apply security policies, enforce configurations, and monitor systems without manual intervention, ensuring systems stay secure and up to date.  
-- **Optimizing IT Operations**: Free up valuable time by automating routine maintenance, allowing admins to focus on more strategic projects.  
-
-With **Automate Ansible**, system administrators can **reduce complexity, enhance reliability, and simplify daily IT operations**.  
+**Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation and a fun Matrix screensaver!
 
 ---
 
-### 🔹 **For IT Learners: Hands-on Experience in Automation & DevOps**  
-If you're learning **IT support, system administration, or automation**, this project gives you **real-world, practical experience** with:
+## 🎯 **Key Features**
 
-- **Ansible Basics**: Learn how to write and execute playbooks to automate IT tasks.  
-- **Cross-Platform Automation**: Gain experience managing **Mac, Windows, and Linux** environments.  
-- **Infrastructure as Code (IaC)**: Understand best practices for configuration management and automation.  
-- **Job-Ready Skills**: Automation is a key skill in modern IT roles. Whether you're pursuing **sysadmin, DevOps, or cloud engineering**, Ansible knowledge gives you an edge.  
+✅ **Automated Ansible Playbook Execution** - Run playbooks seamlessly to configure systems.
 
-This tool is more than just a learning resource—it’s a **practical automation solution** for everyday IT administration.  
+✅ **Network & WAN Status Checks** - Monitor your network and ensure connectivity.
 
----
+✅ **WireGuard Connection Manager** - Automate VPN connections securely.
 
-## ✨ Capabilities
+✅ **Interactive Whiptail Menu** - User-friendly interface for streamlined operations.
 
-- ✅ Useful - Designed to streamline complex administrative tasks, reducing manual effort and increasing efficiency.
-- 🚀 Simple - Easy-to-use automation with intuitive commands and well-structured playbooks for rapid deployment.
-- 🛠️ Thorough - Covers a wide range of system administration needs, from configuration management to software deployment.
-- 🌍 Cross-Platform: Works seamlessly across Windows, Mac, and Linux.
-- 🔄 Scalable Automation: Run automated tasks on multiple machines efficiently.
-
----
-## 📚 Prerequisites Knowledge
-
-Before using **Automate Ansible**, aspiring system administrators should have basic knowledge of the following:
-
-### 🔹 Windows
-- **Command Line (CMD & PowerShell)**: Understanding how to navigate directories, execute commands, and manage files.
-  - Learn more: [Microsoft Docs](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
-- **Windows Management Instrumentation (WMI) & WinRM**: Essential for remote system administration.
-  - Learn more: [Microsoft WMI Documentation](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-start-page)
-
-### 🔹 macOS
-- **Terminal & Bash/Zsh**: Understanding shell commands and scripting.
-  - Learn more: [Apple Developer Shell Guide](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html)
-- **Homebrew**: A package manager for installing software and dependencies.
-  - Learn more: [Homebrew](https://brew.sh/)
-
-### 🔹 Linux
-- **File System & Permissions**: Understanding `ls`, `chmod`, `chown`, `mkdir`, etc.
-  - Learn more: [Linux File System Basics](https://www.tldp.org/LDP/intro-linux/html/sect_03_01.html)
-- **Package Management**: Using `apt`, `yum`, `dnf`, or `pacman` for software installation.
-  - Learn more: [Linux Package Management](https://linuxize.com/post/how-to-use-apt-command/)
-- **SSH & Remote Access**: Securely accessing remote systems via SSH.
-  - Learn more: [SSH Guide](https://www.ssh.com/academy/ssh)
-
----
-## 🛠 Prerequisites for Control Node
-
-Before installing and using **Automate Ansible**, ensure you have the following dependencies set up for your control node:
-
-### Required Dependencies
-- **curl**
-- **wget** (already installed on most systems)
-- **git** (already installed on most systems)
-- **python3**
-- **nmap**
-- **gh** (GitHub CLI)
-
-### 🔹 Windows
-- Install **Windows Subsystem for Linux (WSL)** or use a Linux VM.
-- Install **Python** and **pip**.
-- Install **Ansible** via WSL or Cygwin.
-
-### 🔹 macOS
-- Install **Homebrew** (if not already installed):
-  ```bash
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  ```
-- Install dependencies:
-  ```bash
-  brew install python ansible curl nmap gh
-  ```
-
-### 🔹 Linux
-- Ensure required packages are installed:
-  ```bash
-  sudo apt update && sudo apt install -y python3 python3-pip curl wget nmap gh
-  ```
-- Install **Ansible**:
-  ```bash
-  pip3 install ansible
-  ```
-
----
-## 🛠 Target Hosts & Dependencies
-
-Each target system should have the following dependencies installed to be managed effectively:
-
-### 🔹 Windows
-- **WinRM enabled** (for remote administration)
-- **Python (optional, required for some scripts)**
-
-### 🔹 macOS
-- **Homebrew installed**
-- **Python installed**
-- **SSH enabled**
-
-### 🔹 Linux
-- **Python installed**
-- **SSH enabled**
-- **Required dependencies installed via package manager**
+✅ **Matrix Screensaver for Fun** - A cool, nostalgic screensaver to enjoy!
 
 ---
 
-## 📺 Screenshot
+## 📡 **Why Use WireGuard with VPN?**
 
-Coming soon
+WireGuard is a modern VPN solution known for its **simplicity, speed, and security**. Unlike traditional VPN protocols, WireGuard is:
 
----
+- ⚡ **Fast & Efficient** - Uses state-of-the-art cryptography and a lean codebase for performance.
+- 🔐 **Secure** - Implements strong encryption to ensure private and tamper-proof connections.
+- 🛠 **Easy to Configure** - Minimal setup compared to OpenVPN and IPSec.
+- 🏗 **Lightweight & Cross-Platform** - Works on Linux, Windows, macOS, and even mobile devices.
 
-
-## 🛠 Installation & Usage
-
-Coming Soon
-
-## 🎬 Stupid Demo Video
-
-[![Watch the video](https://img.youtube.com/vi/reAXSyYBFM4/maxresdefault.jpg)](https://www.youtube.com/watch?v=reAXSyYBFM4)
+With **Automate Ansible**, WireGuard VPN connections can be managed effortlessly, ensuring **secure remote access and network privacy**.
 
 ---
 
-# automate-ansible
+## 📸 **Screenshots**
 
-## Directory Structure
+🔹 **Main Menu**  
+![Main Menu](https://via.placeholder.com/800x400?text=Main+Menu+Screenshot)
+
+🔹 **WireGuard Management**  
+![WireGuard Management](https://via.placeholder.com/800x400?text=WireGuard+Manager+Screenshot)
+
+---
+
+## 🛠 **Installation**
 
 ```bash
-/automate-ansible
-│── README.md                 # Main Overview
-│── docs/
-│   ├── windows.md            # Windows-specific setup
-│   ├── mac.md                # macOS-specific setup
-│   ├── linux.md              # Linux-specific setup
-│   ├── prerequisites.md      # General Prerequisites
-│   ├── target-hosts.md       # Target Hosts & Dependencies
-│   ├── installation.md       # Installation Guide
-│   ├── usage.md              # Usage & Commands
-│   ├── faq.md                # Frequently Asked Questions
-```
+# Clone the repository
+git clone git@github.com:michaelbolanos/automate-ansible.git
 
-## Documentation Overview
-- **[Windows Setup](docs/windows.md)** – Steps to configure Windows machines.
-- **[macOS Setup](docs/mac.md)** – Guide for setting up Ansible on macOS.
-- **[Linux Setup](docs/linux.md)** – Instructions for Linux installations.
-- **[General Prerequisites](docs/prerequisites.md)** – Requirements before starting.
-- **[Target Hosts & Dependencies](docs/target-hosts.md)** – Information on configuring target machines.
-- **[Installation Guide](docs/installation.md)** – How to install and configure Ansible.
-- **[Usage & Commands](docs/usage.md)** – Examples and commands for usage.
-- **[Frequently Asked Questions](docs/faq.md)** – Common issues and solutions.
-
-## Getting Started
-Follow the [Installation Guide](docs/installation.md) to set up Ansible for your environment.
-
-## Contributing
-Feel free to contribute by opening issues or submitting pull requests.
-
-## License
-This project is licensed under the MIT License.
-
-
-### 🔹 Clone this repository:
-```bash
-git clone https://github.com/michaelbolanos/automate-ansible.git
+# Navigate to the directory
 cd automate-ansible
+
+# Run the setup script
+./install.sh
 ```
 
+---
+
+## 🚀 **Usage**
+
+Run the script to access the interactive menu:
+
+```bash
+./automate-ansible.sh
+```
+
+---
+
+## 🏆 **Project History & About Me**
+
+Welcome to my GitHub! I'm **Michael Bolanos**, an experienced IT Professional, SysAdmin, and Home Automation Enthusiast passionate about automation, scripting, and cybersecurity.
+
+### **What I Do**
+🖥️ **Managing** - Systems, networks, and cybersecurity frameworks.
+🧑‍💻 **Scripting** - Linux, macOS, and Windows automation for seamless IT operations.
+🔐 **Exploring** - Cybersecurity best practices, compliance, and self-hosted monitoring solutions.
+📡 **Tinkering With** - WireGuard VPN, IoT security, cloud, and on-prem automation setups.
+
+### **Projects & Interests**
+🌟 **Smart Home** - Privacy-first automations with Home Assistant.
+🛠️ **IT & Security Tools** - Developing admin scripts for system management, compliance audits, and security hardening.
+📡 **Networking & VPN Security** - WireGuard, zero-trust security models, and self-hosted solutions.
+🕵️ **Threat Monitoring** - SIEM tools, log aggregation, and automated alerts.
+🤖 **AI & Automation** - Optimizing workflows with scripting and AI-driven threat detection.
+
+Always learning, always securing, always automating — If you're passionate about **Home Assistant, IT automation, cybersecurity, or monitoring**, let's connect!
+
+---
+
+## 🛡 **Security & Compliance**
+
+✅ **Encrypted WireGuard configurations**  
+✅ **Minimal dependencies** for reduced attack surface  
+✅ **No cloud reliance** – runs entirely on your local system  
+
+---
+
+## 🤝 **Contributing**
+
+Want to contribute? Great! Fork the repository, make your changes, and submit a pull request. 
+
+```bash
+# Fork the repo on GitHub
+# Clone your forked repo
+cd automate-ansible
+# Create a new feature branch
+git checkout -b feature-branch
+# Make your changes
+# Commit and push
+git push origin feature-branch
+```
+
+---
+
+## 📜 **License**
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌎 **Connect with Me**
+
+[![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+---
+
+🚀 *Happy Automating!*
