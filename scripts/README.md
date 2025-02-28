@@ -31,25 +31,21 @@ Run the script to access the interactive menu:
 ```
 
 ---
----
-
 ### 🛀 **Windows Automation: PowerShell Remoting**
 
-The `/scripts/windows` subdirectory includes a script to **enable PowerShell remoting** for Ansible control:
+The `/scripts/windows` subdirectory includes a script to **enable PowerShell remoting** for Ansible control
 
-
-For additional Windows automation, see the **Ansible Windows Documentation**.
 
 ---
 
 
-## 🏆 **Project History**
+### 🏆 **Project History**
 
-(Provide details about updates, milestones, or changelogs.)
+WIP
 
 ---
 
-## 🔒 **Security & Compliance**
+### 🔒 **Security & Compliance**
 
 ✅ **Encrypted WireGuard configurations**  
 ✅ **Minimal dependencies** to reduce attack surface  
@@ -60,13 +56,13 @@ For additional Windows automation, see the **Ansible Windows Documentation**.
 
 ---
 
-## 📜 **License**
+### 📜 **License**
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🌎 **Connect with Me**
+### 🌎 **Connect with Me**
 
 [![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michaeljbolanos/)  
