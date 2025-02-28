@@ -1,8 +1,8 @@
 # 🚀 Automate Ansible
 
-![Automate Ansible](https://img.shields.io/badge/Automation-Powered%20by%20Ansible-blue?style=for-the-badge&logo=ansible)
-![License](https://img.shields.io/github/license/michaelbolanos/automate-ansible?style=for-the-badge)
-![GitHub Repo Stars](https://img.shields.io/github/stars/michaelbolanos/automate-ansible?style=for-the-badge)
+![Automation: Powered by Ansible](https://img.shields.io/badge/Automation-Powered%20by%20Ansible-blue?style=for-the-badge&logo=ansible)
+![License: Not Specified](https://img.shields.io/github/license/michaelbolanos/automate-ansible?style=for-the-badge)
+![Stars: Repository Stars](https://img.shields.io/github/stars/michaelbolanos/automate-ansible?style=for-the-badge)
 
 ## 📌 Overview
 
@@ -77,17 +77,17 @@ Run the script to access the interactive menu:
 Welcome to my GitHub! I'm **Michael Bolanos**, an experienced IT Professional, SysAdmin, and Home Automation Enthusiast passionate about automation, scripting, and cybersecurity.
 
 ### **What I Do**
-🖥️ **Managing** - Systems, networks, and cybersecurity frameworks.
-🧑‍💻 **Scripting** - Linux, macOS, and Windows automation for seamless IT operations.
-🔐 **Exploring** - Cybersecurity best practices, compliance, and self-hosted monitoring solutions.
-📡 **Tinkering With** - WireGuard VPN, IoT security, cloud, and on-prem automation setups.
+🖥️ **Managing** - Systems, networks, and cybersecurity frameworks.  
+🧑‍💻 **Scripting** - Linux, macOS, and Windows automation for seamless IT operations.  
+🔐 **Exploring** - Cybersecurity best practices, compliance, and self-hosted monitoring solutions.  
+📡 **Tinkering With** - WireGuard VPN, IoT security, cloud, and on-prem automation setups.  
 
 ### **Projects & Interests**
-🌟 **Smart Home** - Privacy-first automations with Home Assistant.
-🛠️ **IT & Security Tools** - Developing admin scripts for system management, compliance audits, and security hardening.
-📡 **Networking & VPN Security** - WireGuard, zero-trust security models, and self-hosted solutions.
-🕵️ **Threat Monitoring** - SIEM tools, log aggregation, and automated alerts.
-🤖 **AI & Automation** - Optimizing workflows with scripting and AI-driven threat detection.
+🌟 **Smart Home** - Privacy-first automations with Home Assistant.  
+🛠️ **IT & Security Tools** - Developing admin scripts for system management, compliance audits, and security hardening.  
+📡 **Networking & VPN Security** - WireGuard, zero-trust security models, and self-hosted solutions.  
+🕵️ **Threat Monitoring** - SIEM tools, log aggregation, and automated alerts.  
+🤖 **AI & Automation** - Optimizing workflows with scripting and AI-driven threat detection.  
 
 Always learning, always securing, always automating — If you're passionate about **Home Assistant, IT automation, cybersecurity, or monitoring**, let's connect!
 
@@ -126,8 +126,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🌎 **Connect with Me**
 
-[![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michaeljbolanos/)
+[![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michaeljbolanos/)  
 
 ---
 
