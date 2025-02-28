@@ -4,16 +4,19 @@
 
 ## 🛠️ **Installation**
 
-```bash
+
 # Clone the repository
+```bash
 git clone git@github.com:michaelbolanos/automate-ansible.git
 ```
 
 
 # Navigate to the directory
+```
 cd automate-ansible
 ```
 # Run the main menu script
+```
 ./scripts/ansible-manage.sh
 ```
 
