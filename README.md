@@ -1,8 +1,5 @@
 # 🚀 Automate Ansible
 
-![Automation: Powered by Ansible](https://img.shields.io/badge/Automation-Powered%20by%20Ansible-blue?style=for-the-badge&logo=ansible)
-![License: Not Specified](https://img.shields.io/github/license/michaelbolanos/automate-ansible?style=for-the-badge)
-![Stars: Repository Stars](https://img.shields.io/github/stars/michaelbolanos/automate-ansible?style=for-the-badge)
 
 ## 📌 Overview
 
