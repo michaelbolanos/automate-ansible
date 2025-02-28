@@ -79,5 +79,5 @@ Contributions are welcome! Feel free to submit PRs or report issues in the [GitH
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
-Developed with ❤️ by **offthegridit**.
+Developed with ❤️ by **Michael Bolanos**.
 
