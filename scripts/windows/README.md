@@ -43,11 +43,10 @@ Test-WSMan
 ```
 If correctly configured, this should return a valid response.
 
-```
-### 🔑 Security Recommendations
-Use HTTPS (port 5986) instead of HTTP (5985).
-Avoid Basic authentication unless absolutely necessary.
-Use Kerberos or NTLM for authentication in domain environments.
-Configure trusted hosts properly to avoid security risks.
 
-```
+### 🔑 Security Recommendations
+- Use HTTPS (port 5986) instead of HTTP (5985).
+- Avoid Basic authentication unless absolutely necessary.
+- Use Kerberos or NTLM for authentication in domain environments.
+- Configure trusted hosts properly to avoid security risks.
+
