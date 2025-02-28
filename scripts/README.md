@@ -35,14 +35,6 @@ Run the script to access the interactive menu:
 
 The `/scripts/windows` subdirectory includes a script to **enable PowerShell remoting** for Ansible control
 
-
----
-
-
-### 🏆 **Project History**
-
-WIP
-
 ---
 
 ### 🔒 **Security & Compliance**
