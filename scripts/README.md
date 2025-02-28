@@ -1,3 +1,4 @@
+---
 ## Automate Ansible
 
 ---
@@ -42,9 +43,6 @@ The `/scripts/windows` subdirectory includes a script to **enable PowerShell rem
 ✅ **Encrypted WireGuard configurations**  
 ✅ **Minimal dependencies** to reduce attack surface  
 ✅ **No cloud reliance** – operates entirely on local systems  
-
----
-
 
 ---
 
