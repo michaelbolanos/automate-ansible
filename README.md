@@ -1,9 +1,8 @@
 # Automate Ansible
 
-
 ## 📌 Overview
 
-**Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation and a fun Matrix screensaver.
+**Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation.
 
 ---
 
@@ -17,31 +16,9 @@
 
 ✅ **Interactive Whiptail Menu** - User-friendly interface for streamlined operations.
 
-✅ **Matrix Screensaver for Fun** - A cool, nostalgic screensaver to enjoy!
-
 ---
 
-## 📡 **Why Use WireGuard with VPN?**
-
-WireGuard is a modern VPN solution known for its **simplicity, speed, and security**. Unlike traditional VPN protocols, WireGuard is:
-
-- ⚡ **Fast & Efficient** - Uses state-of-the-art cryptography and a lean codebase for performance.
-- 🔐 **Secure** - Implements strong encryption to ensure private and tamper-proof connections.
-- 🛠 **Easy to Configure** - Minimal setup compared to OpenVPN and IPSec.
-- 🏗 **Lightweight & Cross-Platform** - Works on Linux, Windows, macOS, and even mobile devices.
-
-With **Automate Ansible**, WireGuard VPN connections can be managed effortlessly, ensuring **secure remote access and network privacy**.
-
----
-
-## 📸 **Screenshots**
-
-🔹 **Main Menu**  
-
-
----
-
-## 🛠 **Installation**
+## 🛠️ **Installation**
 
 ```bash
 # Clone the repository
@@ -50,8 +27,8 @@ git clone git@github.com:michaelbolanos/automate-ansible.git
 # Navigate to the directory
 cd automate-ansible
 
-# Run the setup script
-./install.sh
+# Run the main menu script
+./scripts/ansible-manage.sh
 ```
 
 ---
@@ -61,18 +38,12 @@ cd automate-ansible
 Run the script to access the interactive menu:
 
 ```bash
-./scripts <TBD>
+./scripts/ansible-manage.sh
 ```
 
 ---
 
-## 🏆 **Project History**
-
-
-
----
-
-## 🛡 **Security & Compliance**
+## 🔒 **Security & Compliance**
 
 ✅ **Encrypted WireGuard configurations**  
 ✅ **Minimal dependencies** for reduced attack surface  
@@ -82,15 +53,19 @@ Run the script to access the interactive menu:
 
 ## 🤝 **Contributing**
 
-Want to contribute? Great! Fork the repository, make your changes, and submit a pull request. 
+Want to contribute? Great! Fork the repository, make your changes, and submit a pull request.
 
 ```bash
 # Fork the repo on GitHub
 # Clone your forked repo
+git clone git@github.com:yourusername/automate-ansible.git
 cd automate-ansible
+
 # Create a new feature branch
 git checkout -b feature-branch
+
 # Make your changes
+
 # Commit and push
 git push origin feature-branch
 ```
@@ -110,4 +85,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-*Happy Automating*
+*Happy Automating!*
+
