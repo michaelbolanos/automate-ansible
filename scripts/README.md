@@ -5,7 +5,7 @@
 ### 🛠️ **Installation**
 
 
-#### Clone the repository
+### Clone the repository
 ```bash
 git clone git@github.com:michaelbolanos/automate-ansible.git
 ```
