@@ -5,19 +5,22 @@
 ## 🚀 Overview
 **Automate Ansible** is an interactive Bash script designed to streamline system administration tasks, including running Ansible playbooks, managing network settings, checking system information, and automating WireGuard connections.
 
-🔹 **Automated Ansible Playbook Execution**
-🔹 **Network & WAN Status Checks**
-🔹 **WireGuard Connection Manager**
-🔹 **Matrix Screensaver for Fun**
-🔹 **Interactive Whiptail Menu**
+🔹 **Automated Ansible Playbook Execution**  
+🔹 **Network & WAN Status Checks**  
+🔹 **WireGuard Connection Manager**  
+🔹 **Ansible Inventory File Management**  
+🔹 **Matrix Screensaver for Fun**  
+🔹 **Interactive Whiptail Menu**  
 
 ## 📜 Features
 - **System Information Display**: Uses `neofetch` to provide system details.
 - **WAN & Network Connectivity Check**: Pings external servers and fetches the WAN IP.
 - **Run Ansible Playbooks**: Execute playbooks from predefined directories with or without SSH password prompts.
 - **Inventory File Management**: Edit Ansible inventory files with `nano`.
+- **Check for Stored Passwords**: Scans `.ini` files for potential security risks.
 - **WireGuard VPN Control**: Connect, disconnect, and view active connections.
 - **Matrix Screensaver**: Runs `cmatrix` for a cool visual effect.
+- **Bash Shell Access**: Open an interactive Bash shell from the menu.
 
 ## 🛠️ Installation
 Ensure the required dependencies are installed:
@@ -32,12 +35,12 @@ git clone git@github.com:michaelbolanos/automate-ansible.git && cd automate-ansi
 
 Make the script executable:
 ```bash
-chmod +x automate-ansible.sh
+chmod +x scripts/ansible-manage.sh
 ```
 
 Run the script:
 ```bash
-./automate-ansible.sh
+./scripts/ansible-manage.sh
 ```
 
 ## 📸 Screenshots
@@ -49,14 +52,20 @@ Run the script:
 
 ## 📝 Usage
 Once inside the menu, select an option using the arrow keys and press **Enter** to execute:
-1️⃣ **Exit to Terminal** - Close the script.
-2️⃣ **Show System Info** - Display hardware and OS information.
-3️⃣ **Check WAN & Network** - Verify internet connectivity.
-4️⃣ **Open Text Editor** - Launch `nano`.
-5️⃣ **Reboot System** - Restart the machine.
-6️⃣ **Run Ansible Playbook** - Execute a playbook from the available list.
-9️⃣ **Edit Ansible Inventory Files** - Modify inventory files.
-🔟 **Check for Passwords in .ini Files** - Security scan for stored credentials.
+
+1️⃣ **Exit to Terminal** - Close the script.  
+2️⃣ **Show System Info** - Display hardware and OS information.  
+3️⃣ **Check WAN & Network** - Verify internet connectivity.  
+4️⃣ **Open Text Editor** - Launch `nano`.  
+5️⃣ **Reboot System** - Restart the machine.  
+6️⃣ **Run Ansible Playbook** - Execute a playbook from the available list.  
+9️⃣ **Edit Ansible Inventory Files** - Modify inventory files.  
+🔟 **Check for Passwords in .ini Files** - Security scan for stored credentials.  
+1️⃣1️⃣ **Check & Connect to WireGuard** - Establish a WireGuard VPN connection.  
+1️⃣2️⃣ **Disconnect from WireGuard** - Terminate an active WireGuard connection.  
+1️⃣3️⃣ **Show Active WireGuard Connections** - View the current VPN session details.  
+1️⃣4️⃣ **Run Matrix Screensaver** - Display an animated terminal effect.  
+1️⃣5️⃣ **Open Bash Shell** - Launch a Bash shell session.  
 
 ## 🛡 Security Considerations
 - Ensure you have proper permissions for executing Ansible playbooks.
