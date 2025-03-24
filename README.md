@@ -1,12 +1,12 @@
 # Automate Ansible
 
-## 📌 Overview
+## Overview
 
 **Automate Ansible** is designed to streamline system administration tasks by automating Ansible playbooks, managing network configurations, and handling WireGuard connections. It features an interactive menu for easy navigation.
 
 ---
 
-## 🎯 **Key Features**
+## **Key Features**
 
 ✅ **Automated Ansible Playbook Execution** - Run playbooks seamlessly to configure systems.
 
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ **Installation**
+## **Installation**
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ cd automate-ansible
 
 ---
 
-## 🚀 **Usage**
+## **Usage**
 
 Run the script to access the interactive menu:
 
