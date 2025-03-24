@@ -51,39 +51,7 @@ Run the script to access the interactive menu:
 
 ---
 
-## 🤝 **Contributing**
 
-Want to contribute? Great! Fork the repository, make your changes, and submit a pull request.
-
-```bash
-# Fork the repo on GitHub
-# Clone your forked repo
-git clone git@github.com:yourusername/automate-ansible.git
-cd automate-ansible
-
-# Create a new feature branch
-git checkout -b feature-branch
-
-# Make your changes
-
-# Commit and push
-git push origin feature-branch
-```
-
----
-
-## 📜 **License**
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 🌎 **Connect with Me**
-
-[![GitHub](https://img.shields.io/badge/GitHub-michaelbolanos-black?style=for-the-badge&logo=github)](https://github.com/michaelbolanos)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/michaeljbolanos/)  
-
----
 
 *Happy Automating!*
 
