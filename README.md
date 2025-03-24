@@ -52,6 +52,3 @@ Run the script to access the interactive menu:
 ---
 
 
-
-*Happy Automating!*
-
